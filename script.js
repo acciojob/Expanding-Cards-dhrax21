@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const panels = document.querySelectorAll('.panel');
 
 // add click event listener to each panel
@@ -15,6 +14,3 @@ function removeActiveClasses() {
     panel.classList.remove('active');
   });
 }
-
-// set the first panel as active by default
-panels[0].classList.add('active');
